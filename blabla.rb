@@ -1,5 +1,5 @@
-def who_am_i(name = "cafer", age)
-  puts "my name is #{name} and I am #{age} years old"
+def greeting(language="Ruby", name)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
 end
 
-who_am_i("onur", 31)
+greeting("Sophie")
